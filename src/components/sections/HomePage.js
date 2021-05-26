@@ -41,6 +41,8 @@ const HomePage = () => {
           playlistId: data,
         },
       });
+      console.log('Res from API')
+      console.log(res)
       return res.data.items;
     };
 
