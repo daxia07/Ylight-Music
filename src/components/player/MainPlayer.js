@@ -18,6 +18,7 @@ import '../../external/saveCountry';
 import '../../style.css';
 
 import { GlobalContext } from '../GlobalState';
+import axios from "axios";
 
 // window.onbeforeunload = function() {
 //   return 'You have unsaved changes!';
